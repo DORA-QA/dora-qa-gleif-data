@@ -1,6 +1,6 @@
 # DORA QA — copie GLEIF
 
-Copie des données publiques du **GLEIF** (Golden Copy : LEI et relations), mise en forme en Parquet pour la **version en ligne** de [DORA QA](https://github.com/stephanealpha/dora-register-quality-analyst) (DORA Register Quality Analyst).
+Copie des données publiques du **GLEIF** (Golden Copy : LEI et relations), mise en forme en Parquet pour la **version en ligne** de [DORA QA](https://github.com/DORA-QA/dora-register-quality-analyst) (DORA Register Quality Analyst).
 
 - Mise à jour **chaque nuit** par le workflow *GLEIF copy* (02:30 UTC), avec les outils de DORA QA (`backend/tools/build_gleif.py`).
 - Publiée en releases `gleif-AAAAMMJJ-HHMM` : `manifest.json` (date de publication GLEIF, SHA-256 de chaque fichier), `lei.parquet`, `rr.parquet`.
